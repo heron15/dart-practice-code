@@ -5,11 +5,7 @@ class Student {
   int? id;
   num? cgpa;
 
-  Student(String name, int id, num cgpa) {
-    this.name = name;
-    this.id = id;
-    this.cgpa = cgpa;
-  }
+  Student(String this.name, int this.id, num this.cgpa);
 
   void display() {
     print("Name: $name");
